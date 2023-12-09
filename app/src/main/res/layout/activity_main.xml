@@ -47,6 +47,27 @@
             android:inputType="textPassword"
             android:id="@+id/password_input"/>
 
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:padding="18dp"
+            android:backgroundTint="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+
+
     </LinearLayout>
 
 </RelativeLayout>
